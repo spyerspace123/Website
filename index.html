@@ -1,29 +1,357 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-    <title> Portfolio  </title>
- 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIVL Consulting | Voice AI Receptionists for Local Businesses</title>
+  <meta name="description" content="VIVL Consulting builds voice-based AI receptionists that answer every call, book every appointment, and grow revenue for local businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-   
-   <a href="page2.html" target=_self title="This takes you to page 2"> Page 2 </a>
-   
+  <header>
+    <div class="navbar">
+      <a class="nav-brand" href="#top">
+        <img src="assets/vivl-logo.svg" alt="VIVL Consulting logo" loading="lazy" />
+        <span>VIVL Consulting</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary" id="primary-navigation">
+        <a href="#problem">Problem</a>
+        <a href="#how">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-gradient" href="#contact">Book a Live Demo</a>
+    </div>
+  </header>
 
+  <main id="top">
+    <section class="section-inner hero" id="hero">
+      <div data-animate>
+        <p class="badge">AI Receptionists for Local Businesses</p>
+        <h1>Never Miss a Booking Again.</h1>
+        <p class="subdued-text">Your AI Receptionist answers every call, books every appointment, and grows your revenue — 24/7.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gradient" href="#contact">Book a Live Demo</a>
+          <a class="btn btn-outline" href="#demo">Watch 60-sec Demo</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true" data-animate>
+        <div class="wave-glow"></div>
+        <div class="waveform">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="orbit-logo">
+          <img src="assets/vivl-logo.svg" alt="" loading="lazy" />
+        </div>
+      </div>
+    </section>
 
-    
+    <section id="problem">
+      <div class="section-inner">
+        <div class="problem-card" data-animate>
+          <h2>Every Missed Call Is Lost Revenue.</h2>
+          <div class="problem-stat">42% of salon calls go unanswered.</div>
+          <p class="subdued-text">That’s over $1,500/month in lost bookings — VIVL captures that instantly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="section-inner">
+        <h2 data-animate>How It Works</h2>
+        <p class="subdued-text" data-animate>Three steps to ensure your clients connect, schedule, and stay loyal.</p>
+        <div class="how-grid">
+          <article class="how-step" data-animate>
+            <h3>1. VIVL answers every inbound call instantly.</h3>
+            <p class="subdued-text">Lightning-fast voice AI trained on your services greets callers within a single ring.</p>
+          </article>
+          <article class="how-step" data-animate>
+            <h3>2. Understands the request and books in Vagaro or Mindbody.</h3>
+            <p class="subdued-text">Deep integrations pull availability, handle changes, and confirm appointments flawlessly.</p>
+          </article>
+          <article class="how-step" data-animate>
+            <h3>3. Sends SMS confirmations and reminders automatically.</h3>
+            <p class="subdued-text">Automated follow-ups keep your calendar full and your clients informed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo">
+      <div class="section-inner">
+        <div class="demo-section" data-animate>
+          <div class="phone-mockup">
+            <div class="phone-screen" role="presentation">
+              <div class="call-header">
+                <div class="call-avatar">AI</div>
+                <div>
+                  <h3 style="margin: 0;">VIVL Reception</h3>
+                  <p style="margin: 0; color: rgba(255,255,255,0.6);">Live on a salon line</p>
+                </div>
+              </div>
+              <div>
+                <p style="margin: 0; color: rgba(0, 255, 255, 0.75); font-weight: 600;">“Thanks for calling Luna Glow Salon. How can I brighten your day?”</p>
+              </div>
+              <div class="call-actions">
+                <button class="accept" type="button" aria-label="Accept call">Accept</button>
+                <button class="decline" type="button" aria-label="Decline call">End</button>
+              </div>
+              <div>
+                <p style="margin: 0; color: rgba(255,255,255,0.6); font-size: 0.9rem;">Bookings synced to Vagaro · SMS confirmations sent instantly</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2>Watch VIVL handle a real salon booking in 15 seconds.</h2>
+            <p class="subdued-text">See the AI receptionist capture caller intent, check availability, and send confirmations without missing a beat.</p>
+            <a class="btn btn-gradient" href="#contact">Book Your Free Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roi">
+      <div class="section-inner">
+        <div data-animate>
+          <h2>Pays for Itself.</h2>
+          <p class="subdued-text">Most clients recoup their monthly fee with just five extra bookings. Let the numbers make the case.</p>
+          <div class="badge" style="margin-top: 1rem;">30-Day ROI Guarantee</div>
+        </div>
+        <div class="roi-grid">
+          <div class="roi-card" data-animate>
+            <div class="counter" data-counter="1500">$0</div>
+            <p class="subdued-text">Recovered monthly bookings captured by AI.</p>
+          </div>
+          <div class="roi-card" data-animate>
+            <div class="counter" data-counter="24">0</div>
+            <p class="subdued-text">Hours a day your clients can reach a real voice.</p>
+          </div>
+          <div class="roi-card" data-animate>
+            <div class="counter" data-counter="5">0</div>
+            <p class="subdued-text">Extra bookings needed to cover the monthly service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="section-inner">
+        <h2 data-animate>Loved by responsive, growth-minded teams.</h2>
+        <p class="subdued-text" data-animate>Real results from salon, medspa, and studio leaders who trust VIVL with every call.</p>
+        <div class="testimonial-grid">
+          <article class="testimonial-card" data-animate>
+            <p>“We closed an additional $2,100 in bookings the first month. Clients rave about how personal the AI sounds.”</p>
+            <div class="testimonial-meta">
+              <span>Marina Lopez</span>
+              <span style="color: rgba(255,255,255,0.55);">Owner, Luna Glow Salon</span>
+            </div>
+          </article>
+          <article class="testimonial-card" data-animate>
+            <p>“Our front desk can finally focus on in-studio guests. VIVL handles every call and reminder with zero drop-offs.”</p>
+            <div class="testimonial-meta">
+              <span>James Patel</span>
+              <span style="color: rgba(255,255,255,0.55);">GM, Aura Wellness Spa</span>
+            </div>
+          </article>
+          <article class="testimonial-card" data-animate>
+            <p>“The integration with Mindbody was seamless. We’ve seen 38% more completed appointments month-over-month.”</p>
+            <div class="testimonial-meta">
+              <span>Samantha Reed</span>
+              <span style="color: rgba(255,255,255,0.55);">Director, Pulse Fitness Studios</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="section-inner">
+        <div class="pricing-section" data-animate>
+          <div class="pricing-header">
+            <div>
+              <h2>Silver Tier</h2>
+              <p class="subdued-text">Best for salons, medspas, and studios ready to capture every call.</p>
+            </div>
+            <div>
+              <div class="price">$299<span style="font-size: 1.1rem; font-weight: 500; color: rgba(255,255,255,0.7);">/mo</span></div>
+              <p style="margin: 0; color: rgba(255,255,255,0.6);">+ $350 one-time setup</p>
+            </div>
+          </div>
+          <ul class="feature-list" aria-label="Silver Tier features">
+            <li>24/7 Call Handling</li>
+            <li>Appointment Booking</li>
+            <li>FAQ Automation</li>
+            <li>Missed Call SMS</li>
+            <li>Daily Summary Reports</li>
+          </ul>
+          <div style="margin-top: 2.5rem;">
+            <a class="btn btn-gradient" href="#contact">Start Your Demo Today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="founder-card" data-animate>
+            <div class="founder-avatar" role="img" aria-label="Silhouette of Daniel Zozulya"></div>
+            <h2 style="margin-top: 1.5rem;">Daniel Zozulya, Founder</h2>
+            <p class="subdued-text">“We build AI that makes small businesses feel as responsive as billion-dollar brands.”</p>
+          </div>
+          <div data-animate>
+            <h2>Low-code voice automation experts.</h2>
+            <p class="subdued-text">We design and deploy voice-based AI receptionists that plug directly into the tools you already use. From Vagaro to Mindbody, VIVL keeps your schedules full, your clients delighted, and your team focused on in-person experiences.</p>
+            <p class="subdued-text">Based in the U.S., we partner with salons, medspas, fitness studios, and local service brands ready to future-proof their front desk.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-inner">
+        <div class="contact-section" data-animate>
+          <img src="assets/vivl-logo.svg" alt="VIVL Consulting logo" width="80" loading="lazy" style="margin: 0 auto 1.5rem;" />
+          <h2>Ready to Capture Every Call?</h2>
+          <p class="subdued-text" style="margin: 0 auto; max-width: 540px;">Let’s build an AI receptionist that never sleeps. Book a live walkthrough or reach out directly to Daniel.</p>
+          <div class="contact-actions">
+            <a class="btn btn-gradient" href="https://calendly.com" target="_blank" rel="noopener">Book a Demo</a>
+            <a class="btn btn-outline" href="mailto:daniel@vivlconsulting.com">Email Daniel at daniel@vivlconsulting.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <img src="assets/vivl-logo.svg" alt="VIVL Consulting" loading="lazy" class="footer-logo" />
+      <p>© <span id="year"></span> VIVL Consulting. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
+
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (navToggle && navLinks) {
+      const navMediaQuery = window.matchMedia('(max-width: 768px)');
+
+      const updateNavState = () => {
+        if (navMediaQuery.matches) {
+          navLinks.setAttribute('aria-hidden', String(!navLinks.classList.contains('is-open')));
+        } else {
+          navLinks.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+          navLinks.removeAttribute('aria-hidden');
+        }
+      };
+
+      if (navMediaQuery.addEventListener) {
+        navMediaQuery.addEventListener('change', updateNavState);
+      } else {
+        navMediaQuery.addListener(updateNavState);
+      }
+
+      navToggle.addEventListener('click', () => {
+        const isOpen = navLinks.classList.toggle('is-open');
+        navToggle.setAttribute('aria-expanded', String(isOpen));
+        if (navMediaQuery.matches) {
+          navLinks.setAttribute('aria-hidden', String(!isOpen));
+        }
+      });
+
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+          if (navMediaQuery.matches) {
+            navLinks.setAttribute('aria-hidden', 'true');
+          }
+        });
+      });
+
+      updateNavState();
+    }
+
+    const counters = document.querySelectorAll('.counter');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const formatValue = (el, value) => {
+      if (el.dataset.counter >= 1000) {
+        el.textContent = `$${Math.floor(value).toLocaleString()}`;
+      } else {
+        el.textContent = Math.floor(value).toLocaleString();
+      }
+    };
+
+    const animateCounter = el => {
+      const target = Number(el.dataset.counter);
+      const duration = 1600;
+      const start = performance.now();
+
+      const step = now => {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const value = target * eased;
+        formatValue(el, value);
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        } else {
+          formatValue(el, target);
+        }
+      };
+
+      requestAnimationFrame(step);
+    };
+
+    if (prefersReducedMotion) {
+      counters.forEach(counter => formatValue(counter, Number(counter.dataset.counter)));
+    } else {
+      const counterObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.6 });
+
+      counters.forEach(counter => counterObserver.observe(counter));
+    }
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
 </html>
